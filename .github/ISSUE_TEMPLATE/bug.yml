@@ -1,0 +1,22 @@
+name: Bug
+description: Relatar comportamento incorreto
+labels: ["bug"]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Como reproduzir
+      description: Inclua versão, sistema e passos sem dados privados.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado e observado
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidências
+      description: Logs sanitizados, captura ou caso mínimo.
