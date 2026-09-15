@@ -29,6 +29,7 @@ cargo test --workspace
 - [Plano de desempenho](docs/PERFORMANCE.md)
 - [Roadmap](docs/ROADMAP.md)
 - [Backlog detalhado](docs/BACKLOG.md)
+- [Índice das 30 issues](docs/GITHUB-ISSUES.md)
 - [Contribuição](CONTRIBUTING.md)
 
 ## Acompanhamento
