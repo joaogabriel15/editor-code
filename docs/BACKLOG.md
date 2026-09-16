@@ -301,3 +301,7 @@ Consolidar onboarding, atalhos, temas, multi-repo e suporte real de IA/extensõe
 **Aceite:** Guia deve refletir recursos implementados; checklist de release com limitações, métricas e instalação em máquina limpa; fechar roadmap somente com evidência.
 
 **Dependências:** EC-022, EC-023, EC-025, EC-029.
+
+## Complemento obrigatório
+
+Este arquivo mantém as 30 tarefas iniciais da fundação. A meta ampliada está em [PARITY-BACKLOG.md](PARITY-BACKLOG.md). Nenhum limite inicial de subconjunto elimina o restante do contrato de paridade.

@@ -12,3 +12,9 @@ Leia README.md, docs/ARCHITECTURE.md e a issue antes de implementar.
 - Registrar código de terceiros em THIRD_PARTY_NOTICES.md.
 - Validar cargo fmt, clippy e testes relevantes; atualizar documentação e issue com evidências.
 - Não publicar credenciais, caminhos pessoais, código de outros repositórios ou dados de benchmark privados.
+
+## Paridade e conclusão
+- Ler docs/EXECUTION-CHECKLIST.md e docs/PARITY-AUDIT.md.
+- Basear comparações no SHA fixado, separando main/docs posteriores.
+- Não encerrar requisitos sem evidência; impedimento externo permanece visível.
+- Atualizar docs/planning/parity-plan.json ao alterar dependências/estado e executar python scripts/verify_planning.py --require-published.

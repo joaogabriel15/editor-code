@@ -8,8 +8,13 @@ Editor nativo em Rust, inspirado na experiência do VS Code e planejado para mui
 - Implementação nova em Rust; este repositório não é um fork do Code OSS.
 - Windows primeiro, com separação de plataforma para Linux/macOS.
 - Repositórios cadastrados não devem iniciar serviços pesados automaticamente.
-- Temas e comportamentos familiares do VS Code; compatibilidade delimitada por testes.
+- Meta ampliada: paridade funcional verificável com VS Code 1.137.0, incluindo notebooks, remoto, web e APIs de extensões.
+- As 30 tarefas iniciais são a fundação; o plano possui 98 tarefas técnicas e 736 entradas de responsabilidade.
 - Não há promessa de compatibilidade universal de extensões ou de redução de memória antes dos benchmarks.
+
+## Comece pelo checklist
+
+[Checklist mestre no GitHub](https://github.com/joaogabriel15/editor-code/issues/99) · [Passo a passo de execução](docs/EXECUTION-CHECKLIST.md) · [Cenários de teste](docs/TEST-SCENARIOS.md)
 
 ## Desenvolvimento
 Instale Rust stable com rustfmt e clippy e um linker compatível com a plataforma. No Windows, use o toolchain MSVC e as ferramentas C++ correspondentes.
@@ -29,7 +34,11 @@ cargo test --workspace
 - [Plano de desempenho](docs/PERFORMANCE.md)
 - [Roadmap](docs/ROADMAP.md)
 - [Backlog detalhado](docs/BACKLOG.md)
-- [Índice das 30 issues](docs/GITHUB-ISSUES.md)
+- [Índice de issues](docs/GITHUB-ISSUES.md)
+- [Comece aqui: checklist de execução](docs/EXECUTION-CHECKLIST.md)
+- [Conferência de paridade](docs/PARITY-AUDIT.md)
+- [Backlog detalhado de paridade](docs/PARITY-BACKLOG.md)
+- [Matriz de cobertura](docs/PARITY-MATRIX.md)
 - [Contribuição](CONTRIBUTING.md)
 
 ## Acompanhamento

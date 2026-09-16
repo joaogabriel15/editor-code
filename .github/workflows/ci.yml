@@ -6,6 +6,12 @@ on:
 permissions:
   contents: read
 jobs:
+  planning:
+    name: Planning consistency
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/verify_planning.py --require-published
   check:
     name: Rust / ${{ matrix.os }}
     strategy:

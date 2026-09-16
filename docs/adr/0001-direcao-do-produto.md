@@ -13,3 +13,7 @@ Maior custo para implementar edição e interface; liberdade para controlar serv
 
 ## Alternativas
 Fork Code OSS preservaria mais compatibilidade, mas manteria a arquitetura de interface atual. A troca de direção deve ser uma nova ADR.
+
+## Atualização
+
+A [ADR 0002](0002-meta-de-paridade.md) amplia o escopo final para paridade verificável, preservando o núcleo Rust. O subconjunto de compatibilidade permanece apenas como etapa incremental.

@@ -24,3 +24,7 @@ Usar formatos e comportamentos como referência; escrever núcleo e UI novos. Qu
 - https://github.com/microsoft/vscode/blob/29d5c1ecf1086c8ba833108afa45a766f6cc9f0b/LICENSE.txt
 
 Code OSS tem licença MIT. Distribuição da Microsoft, extensões, serviços e marcas devem ser avaliados separadamente.
+
+## Baseline da conferência ampliada
+
+O main citado acima é a inspeção inicial. A meta verificável foi fixada em VS Code 1.137.0, SHA 645f29cc3176500b4b5762ba887cf2a7f0ffdf2c. Veja [auditoria de paridade](PARITY-AUDIT.md) para método, fontes, contagens e limitações.
