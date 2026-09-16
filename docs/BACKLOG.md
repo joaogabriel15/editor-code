@@ -28,7 +28,7 @@ Marco: M0 — Fundação e decisões. Área: Compatibilidade.
 
 Mapear comandos, configurações, temas, snippets e APIs necessárias às extensões prioritárias usando uma revisão fixa do upstream.
 
-**Aceite:** Publicar matriz suportado/parcial/fora do escopo; separar API estável e proposta; registrar origem e licença de qualquer código reutilizado.
+**Aceite:** Publicar matriz planejado/implementado/verificado/parcial/bloqueado; separar API estável e proposta; registrar origem e licença de qualquer código reutilizado. Impedimentos não removem requisitos da meta de paridade.
 
 **Dependências:** Nenhuma.
 
